@@ -40,13 +40,13 @@ Supports persistent storage with snapshots and backups.
 
 Easily integrates with AWS Lambda, S3, RDS, CloudWatch, Route53, and more.
 
-EC2 Instance Types & Use Cases
+## EC2 Instance Types & Use Cases
 
 AWS offers various EC2 instance families optimized for different workloads. Let's explore some of them with real-time examples.
 
 # 1. General-Purpose Instances (T, M Series)
 
-Examples: T3, T3a, M5, M6g
+# Examples: T3, T3a, M5, M6g
 
 Use Case: Ideal for web applications, small databases, and development environments.
 
@@ -54,7 +54,7 @@ Example Scenario: Hosting a WordPress website using an Amazon EC2 T3.micro insta
 
 # 2. Compute-Optimized Instances (C Series)
 
-Examples: C5, C6g, C6i
+# Examples: C5, C6g, C6i
 
 Use Case: High-performance computing (HPC), gaming, media transcoding.
 
@@ -62,7 +62,7 @@ Example Scenario: Running a machine learning training model using a C5.4xlarge i
 
 # 3. Memory-Optimized Instances (R, X Series)
 
-Examples: R5, R6g, X1e, X2idn
+# Examples: R5, R6g, X1e, X2idn
 
 Use Case: In-memory databases (Redis, Memcached), SAP workloads, analytics.
 
@@ -70,7 +70,7 @@ Example Scenario: Running SAP HANA on an X1e.32xlarge instance with 3.9TB RAM.
 
 # 4. Storage-Optimized Instances (I, D Series)
 
-Examples: I3, I4i, D3
+# Examples: I3, I4i, D3
 
 Use Case: NoSQL databases, big data processing.
 
@@ -78,7 +78,7 @@ Example Scenario: Running Apache Cassandra database on an I3.2xlarge instance wi
 
 # 5. Accelerated Computing (P, G, Inf, Trn Series)
 
-Examples: P4, G5, Inf1, Trn1
+# Examples: P4, G5, Inf1, Trn1
 
 Use Case: AI/ML workloads, deep learning, GPU-based rendering.
 
